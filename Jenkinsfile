@@ -8,7 +8,6 @@ pipeline
 			steps
 			{
 				echo 'start example'
-				sh 'cd SimpleDateFormatter;find . -type f'
 			}
 		}
 		stage('Compile the work')
